@@ -6,6 +6,11 @@
 
 // @lc code=start
 class Solution {
+
+// 1. 数组大小 
+// 2. 数字为整数时 直接 break 
+// 3. 数组排序的作用，减少时间复杂度，当数据 > 0，不做处理即可
+
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var tempNums = nums
         tempNums.sort()
